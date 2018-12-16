@@ -3,7 +3,7 @@ import csv
 from scipy.stats import kde
 import numpy as np
 
-#ensure the file is located in the same folder as the D
+#ensure the str file is located in the same folder as the this script file.
 str = 'Week 12 Trial Runs.csv'
 
 counter = -1
@@ -23,6 +23,7 @@ with open(str) as csvDataFile:
 min = -5
 max = 5
 
+#change nbins to whatever you want. Higher number smoothes out the image
 nbins = 100
 k = kde.gaussian_kde([x,y])
 xi, yi = np.mgrid[min:max:nbins*1j, min:max:nbins*1j]
