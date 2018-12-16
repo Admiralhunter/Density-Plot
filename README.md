@@ -5,3 +5,5 @@ This python script will create a 2D density plot by using a gaussian KDE. This w
 The Heat Maps folder contains the graphs used to present my groups data at my Six Sigma Green Belt presentations. It shows the probability for a checker to land at each grid location for each week and shows that our initial apparatus was bad but each week it improves.
 
 The PDF file is a demonstration of what the project entailed and how we presented our data to our professor.
+
+Install the required Python libraries by running "pip install -r requirements.txt" in the Python directory.
